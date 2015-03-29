@@ -1,0 +1,154 @@
+#main {
+    width: 600px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+	line-height: 0;
+}
+
+.hero h1 {
+    text-indent: -9999px;
+    position: absolute;
+}
+
+.hero {
+    position: relative;
+}
+
+.cta-watch {
+    background: url(../assets/cta_watch.gif) no-repeat;
+    width: 46px;
+    height: 39px;
+    display: inline-block;
+    float: left;
+    margin-right: 8px;
+}
+
+.cta {
+    position: absolute;
+    right: 42px;
+    bottom: 32px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.body {
+    padding: 28px 28px 40px 28px;
+    position: relative;
+    background: #f5f5f5;
+}
+
+.body h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.stan-body {
+    font-family: Helvetica, sans-serif;
+    display: block;
+    line-height: 24px;
+    color: #444;
+    font-weight: 100;
+}
+
+.footer {
+	background: #1e1e1e;
+	width: 100%;
+	min-height: 80px;
+	float: left;
+	margin-bottom: 20px;
+	color: #5c5a57;
+	font-family: sans-serif;
+}
+
+.cta.cta-body {
+    position: static;
+    background: #0099ff;
+    width: 165px;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+    padding-left: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-arrow {
+    background: url(../assets/cta_arrow.gif) no-repeat;
+    width: 18px;
+    height: 9px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.disclaimer {
+	margin: 14px 0 0 28px;
+	font-size: 13px;
+	line-height: 13px;
+}
+
+.footer-link-wrap {
+    margin-left: 28px;
+}
+
+.footer-link {
+    color: #949494;
+    text-decoration: underline;
+    font-size: 13px;
+}
+.privacy-policy {
+	margin-left: 30px;
+}
+
+.footer-link-wrap {
+	margin-left: 28px;
+	margin: 16px 0 16px 28px;
+}
+
+@media (max-width:400px) {
+	.cta {
+		line-height: 22px;
+		font-size: 26px;
+		padding: 16px 20px 16px 50px;
+		display: block;
+		background: #0099ff;
+		right: 22px;
+	}
+	.cta-watch {
+		left: 0;
+		position: absolute;
+		top: 8px;
+	}
+	.body h2 {
+		margin-top: 0;
+		font-size: 42px;
+	}
+	.stan-body {
+		font-size: 26px;
+		line-height: 42px;
+	}
+	.cta.cta-body {
+		width: auto;
+		height: auto;
+	}
+	.disclaimer {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.footer-link {
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+}
+
+
+
